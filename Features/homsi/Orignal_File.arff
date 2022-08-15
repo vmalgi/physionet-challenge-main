@@ -1,0 +1,136 @@
+@relation USB
+
+@attribute m_RR numeric
+@attribute sd_RR numeric
+@attribute mean_IntS1 numeric
+@attribute sd_IntS1 numeric
+@attribute mean_IntS2 numeric
+@attribute sd_IntS2 numeric
+@attribute mean_IntSys numeric
+@attribute sd_IntSys numeric
+@attribute mean_IntDia numeric
+@attribute sd_IntDia numeric
+@attribute m_Ratio_SysRR numeric
+@attribute sd_Ratio_SysRR numeric
+@attribute m_Ratio_DiaRR numeric
+@attribute sd_Ratio_DiaRR numeric
+@attribute m_Ratio_SysDia numeric
+@attribute sd_Ratio_SysDia numeric
+@attribute m_Amp_SysS1 numeric
+@attribute sd_Amp_SysS1 numeric
+@attribute m_Amp_DiaS2 numeric
+@attribute sd_Amp_DiaS2 numeric
+@attribute m_Ratio_zcr_S1 numeric
+@attribute m_Ratio_zcr_SYS numeric
+@attribute m_Ratio_zcr_S2 numeric
+@attribute m_Ratio_zcr_DIA numeric
+@attribute m_T_S1 numeric
+@attribute m_T_Sys numeric
+@attribute m_T_S2 numeric
+@attribute m_T_Dia numeric
+@attribute m_Max_S1 numeric
+@attribute m_Max_Sys numeric
+@attribute m_Max_S2 numeric
+@attribute m_Max_DIA numeric
+@attribute m_mean_S1 numeric
+@attribute m_mean_SYS numeric
+@attribute m_mean_S2 numeric
+@attribute m_mean_DIA numeric
+@attribute m_rms_S1 numeric
+@attribute m_rms_SYS numeric
+@attribute m_rms_S2 numeric
+@attribute m_rms_DIA numeric
+@attribute m_k_S1 numeric
+@attribute m_k_SYS numeric
+@attribute m_k_S2 numeric
+@attribute m_k_DIA numeric
+@attribute m_ptd_S1 numeric
+@attribute m_ptd_SYS numeric
+@attribute m_ptd_S2 numeric
+@attribute m_ptd_DIA numeric
+@attribute m_pfd_S1 numeric
+@attribute m_pfd_SYS numeric
+@attribute m_pfd_S2 numeric
+@attribute m_pfd_DIA numeric
+@attribute m_saen_S1 numeric
+@attribute m_saen_SYS numeric
+@attribute m_saen_S2 numeric
+@attribute m_saen_DIA numeric
+@attribute m_BWs_S1 numeric
+@attribute m_BWs_SYS numeric
+@attribute m_BWs_S2 numeric
+@attribute m_BWs_DIA numeric
+@attribute m_Qs1 numeric
+@attribute m_Qsys numeric
+@attribute m_Qs2 numeric
+@attribute m_Qdia numeric
+@attribute m_Shannon_S1 numeric
+@attribute m_Shannon_SYS numeric
+@attribute m_Shannon_S2 numeric
+@attribute m_Shannon_DIA numeric
+@attribute m_skew_S1 numeric
+@attribute m_skew_SYS numeric
+@attribute m_skew_S2 numeric
+@attribute m_skew_DIA numeric
+@attribute m_var_S1 numeric
+@attribute m_var_SYS numeric
+@attribute m_var_S2 numeric
+@attribute m_var_DIA numeric
+@attribute heartRate numeric
+@attribute ED1 numeric
+@attribute ED2 numeric
+@attribute ED3 numeric
+@attribute ED4 numeric
+@attribute ED5 numeric
+@attribute EA5 numeric
+@attribute ' Shannon_A5_s1' numeric
+@attribute ' Shannon_A5_sys' numeric
+@attribute ' Shannon_A5_s2' numeric
+@attribute ' Shannon_A5_dia' numeric
+@attribute ' Shannon_D5_s1' numeric
+@attribute ' Shannon_D5_sys' numeric
+@attribute ' Shannon_D5_s2' numeric
+@attribute ' Shannon_D5_dia' numeric
+@attribute ' Shannon_D4_s1' numeric
+@attribute ' Shannon_D4_sys' numeric
+@attribute ' Shannon_D4_s2' numeric
+@attribute ' Shannon_D4_dia' numeric
+@attribute ' Shannon_D3_s1' numeric
+@attribute ' Shannon_D3_sys' numeric
+@attribute ' Shannon_D3_s2' numeric
+@attribute ' Shannon_D3_dia' numeric
+@attribute ' Shannon_D2_s1' numeric
+@attribute ' Shannon_D2_sys' numeric
+@attribute ' Shannon_D2_s2' numeric
+@attribute ' Shannon_D2_dia' numeric
+@attribute ' Shannon_D1_s1' numeric
+@attribute ' Shannon_D1_sys' numeric
+@attribute ' Shannon_D1_s2' numeric
+@attribute ' Shannon_D1_dia' numeric
+@attribute o_Shannon_A5_s1 numeric
+@attribute o_Shannon_A5_sys numeric
+@attribute o_Shannon_A5_s2 numeric
+@attribute o_Shannon_A5_dia numeric
+@attribute o_Shannon_D5_s1 numeric
+@attribute o_Shannon_D5_sys numeric
+@attribute o_Shannon_D5_s2 numeric
+@attribute o_Shannon_D5_dia numeric
+@attribute o_Shannon_D4_s1 numeric
+@attribute o_Shannon_D4_sys numeric
+@attribute o_Shannon_D4_s2 numeric
+@attribute o_Shannon_D4_dia numeric
+@attribute o_Shannon_D3_s1 numeric
+@attribute o_Shannon_D3_sys numeric
+@attribute o_Shannon_D3_s2 numeric
+@attribute o_Shannon_D3_dia numeric
+@attribute o_Shannon_D2_s1 numeric
+@attribute o_Shannon_D2_sys numeric
+@attribute o_Shannon_D2_s2 numeric
+@attribute o_Shannon_D2_dia numeric
+@attribute o_Shannon_D1_s1 numeric
+@attribute o_Shannon_D1_sys numeric
+@attribute o_Shannon_D1_s2 numeric
+@attribute o_Shannon_D1_dia numeric
+@attribute Class {-1, 1}
+
+@data

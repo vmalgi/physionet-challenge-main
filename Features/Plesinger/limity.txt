@@ -1,0 +1,32 @@
+%All - N 
+%1082/2466
+% divna Skew_Loc_UF_mean<0.6362 || Skew_Glob_UF<0.6535 || Skew_Loc_UF_mean<0.5453 || Skew_S2_LF_std<0.1013679 || Sym_S2_Corr_MF_std<0.04861997 || Sym_S1_Corr_HF_mean>0.7393
+%1103/3026 -5p
+Skew_Loc_UF_mean<0.6244103 || Skew_Glob_UF<0.6534703 || Corr_FFT_std<10.72538 || Skew_S2_LF_std<0.1060156 || UBMiBM<0.005140321
+
+%All - P
+79/561 5p
+SDMiEM>1.799603 || DMiFM>2.619169 || SDMiFM>3.842556 || SAMiCM<0.1964864 || DMiEM>1.254161
+
+
+
+%G2 - N
+111/384
+Sym_S2_Corr_SF_mean>0.4879 || Sym_S2_Corr_HF_mean>0.6883 || Sym_S2_Corr_MF_mean_i_std>4.9081 || Skew_S2_MF_mean>2.7791 || DMiEM<0.212 || ADiGD>2.3856
+
+
+
+
+%G5 - N
+%1728/1855
+%Skew_S1_UF_mean<0.6349 || Corr_FFT_kurt<1.7415 || Skew_Loc_UF_mean<0.6362 || UDD_mean<0.0004 || EM_mean>0.0295
+%1786/1854
+%DMiFM>2.619169 || Skew_S1_UF_mean<0.6372452 || frequencyRatio>0.4214619 || EM_mean>0.02540926 || Skew_Loc_UF_mean<0.6244103 || Sym_S2_Corr_HF_mean>0.5093024 || UGMiGM<0.1303075
+1537/1854
+Skew_S1_UF_mean<0.6056309 || Skew_Loc_UF_mean<0.5989476 || ES_mean>3.53345 || Sym_S2_Corr_HF_mean>0.6131871 || jhParam_skew>97.22453 || Skew_S2_MF_std<0.2597359 || EM_mean>0.03060023
+
+%G5 - P
+%83/104
+%SACDFMiBEM>2.3831 || UACDFMiBEM>2.3786 || Skew_S1_HF_std>1.29889
+61/83 2p
+UACDFMiBEM>2.397784 || SACDFMiBEM>2.292548

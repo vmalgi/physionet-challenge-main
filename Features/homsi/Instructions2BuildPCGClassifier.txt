@@ -1,0 +1,15 @@
+%% Created by Prof. Masun Nabhan Homsi (Universidad Simon Bolivar - Caracas -Venezuela)
+
+Instructions to build the PCG predictive model "CM-0180-3I-43F.model"
+
+1) Open weka.jar by double clicking
+2) Open CLI window
+3) Copy and paste one by one in the command line the following instructions :
+	a)Convert last attribute from Numeric to Nominal
+		java weka.filters.unsupervised.attribute.NumericToNominal -R last -i "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\1-all_Instances.arff" > "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\2-all_Instances.arff"
+	b) Remove file names (First attribute)	
+		java weka.filters.unsupervised.attribute.Remove -R 1 -i "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\2-all_Instances.arff" > "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\3-all_Instances.arff"
+	c) Replace missing values using mean
+		java weka.filters.unsupervised.attribute.ReplaceMissingValues -i "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\3-all_Instances.arff" > "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\4-all_Instances.arff"	
+	d) Construct the model
+		java weka.classifiers.meta.CostSensitiveClassifier -cost-matrix "[0.0 1.0; 8.0 0.0]" -M -S 1 -W weka.classifiers.meta.LogitBoost -t "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\4-all_Instances.arff" -d "C:\Users\Masun\Documents\Physionet\ENTRY\TrainingFiles\CM-0180-3I-43F.model" -- -P 100 -L -1.7976931348623157E308 -H 1.0 -Z 3.0 -O 6 -E 6 -S 1 -I 3 -W weka.classifiers.trees.RandomForest -- -I 100 -K 43 -S 1 -num-slots 6
