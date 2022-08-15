@@ -3,7 +3,8 @@
 This repository contains Matlab solution for the Physionet Challenge - 2022.
 
 
-Team Name: Melbourne Kangas
+Team Name: Melbourne Kangas.
+
 Team Members : Zaria Imran, Ethan Grooby, Vinayaka Vivekananda Malgi, Chiranjibi Situala, Faezaeh Marzbanrad, Sunil Aryal.
  
 MATLAB-specific instructions
